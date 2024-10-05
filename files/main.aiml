@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	    
+  <!-- Greeting -->
+  <category>
+    <pattern>*</pattern>
+    <template>
+        Hello. I am jobot your computer science career advisor chatbot, here to help you find your dream career in computing. Would you like help exploring some options?.
+        <button>
+            <text>Yes</text>
+            <postback>yes</postback>
+        </button>
+        <button>
+            <text>No</text>
+            <postback>no</postback>
+        </button>
+    </template>
+  </category>
+  
+  <!-- No button message -->
+  <category>
+    <pattern>no</pattern>
+    <template>I understand. If you need help in the future, feel free to come back. Have a great day!</template>
+  </category>
+  
+  <!-- Interest questions -->
+  <category>
+    <pattern>yes</pattern>
+    <template>Great! Let's begin. Choose the aspect of computer science that interests you the most from the following options: coding, data analysis, security, AI, or cloud computing.</template>
+  </category>
+
+  <!-- End of conversation -->
+  <category>
+    <pattern>end chat</pattern>
+    <template>
+        Thank you for exploring computer science career paths with me. If you have any more questions in the future, feel free to ask. Have a great day!
+    </template>
+  </category>
+
+  <!-- To handle different interest inputs -->
+  <category>
+    <pattern>^ coding ^</pattern>
+    <template>
+        <srai>coding</srai>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>^ data analysis ^</pattern>
+    <template>
+        <srai>data analysis</srai>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>^ security ^</pattern>
+    <template>
+        <srai>security</srai>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>^ ai ^</pattern>
+    <template>
+        <srai>ai</srai>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>^ cloud computing ^</pattern>
+    <template>
+        <srai>cloud computing</srai>
+    </template>
+  </category>
+  
+ 
+</aiml>

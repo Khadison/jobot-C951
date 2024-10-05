@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- Cloud Computing Path -->
+  <category>
+    <pattern>cloud computing</pattern>
+    <template>
+        Since you chose cloud computing, I recommend considering a job as a cloud computing specialist, as this role is transforming how businesses operate.
+        As a cloud engineer or architect, you'll design, implement, and manage cloud-based systems, ensuring scalability, security, and efficiency for organizations.<br></br>
+        <link>
+            <text>Click here to learn more</text>
+            <url>https://www.coursera.org/articles/cloud-computing-career-path</url>
+        </link>
+        <button>
+            <text>End Conversation</text>
+            <postback>end chat</postback>
+        </button>
+    </template>
+  </category>
+</aiml>

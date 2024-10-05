@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- Machine Learning Path -->
+  <category>
+    <pattern>ai</pattern>
+    <template>
+        Since you choose ai I recommend a job as a artificial intelligence engineer as they are revolutionizing the tech industry. 
+        As an AI engineer or machine learning specialist, you'll develop intelligent systems that can learn and make decisions, pushing the boundaries of what's possible with technology.<br></br>
+        <link>
+            <text>Click here to learn more</text>
+            <url>https://onlinedegrees.sandiego.edu/artificial-intelligence-jobs/</url>
+        </link>
+        <button>
+            <text>End Conversation</text>
+            <postback>end chat</postback>
+        </button>
+    </template>
+  </category>
+</aiml>

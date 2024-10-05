@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- Software Developer Path -->
+  <category>
+    <pattern>coding</pattern>
+    <template>
+        Since you choose coding I recommend a job as a software developer, you'll design, create, and maintain computer programs and applications. 
+        This field requires strong problem-solving skills and creativity.<br></br>
+        <link>
+            <text>Click here to learn more</text>
+            <url>https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm</url>
+        </link>
+        <button>
+            <text>End Conversation</text>
+            <postback>end chat</postback>
+        </button>
+    </template>
+  </category>
+</aiml>

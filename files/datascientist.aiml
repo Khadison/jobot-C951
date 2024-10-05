@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- Data Scientist Path -->
+  <category>
+    <pattern>data analysis</pattern>
+    <template>
+        Since you choose data analysis I recommend a job as a data analyst which involves extracting insights from large datasets. 
+        As a data analyst or data scientist, you'll use statistical methods and machine learning to solve complex problems and inform business decisions.<br></br>
+        <link>
+            <text>Click here to learn more</text>
+            <url>https://www.bls.gov/ooh/math/data-scientists.htm</url>
+        </link>
+        <button>
+            <text>End Conversation</text>
+            <postback>end chat</postback>
+        </button>
+    </template>
+  </category>
+</aiml>

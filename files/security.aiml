@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- Cybersecurity Analyst Path -->
+  <category>
+    <pattern>security</pattern>
+    <template>
+        Since you choose security I recommend a job as a cybersecurity specialist which is crucial in our digital world. 
+        As a security analyst or engineer, you'll protect computer networks and systems from threats, implement security measures, and respond to incidents.<br></br>
+        <link>
+            <text>Click here to learn more</text>
+            <url>https://www.bls.gov/ooh/computer-and-information-technology/information-security-analysts.htm</url>
+        </link>
+        <button>
+            <text>End Conversation</text>
+            <postback>end chat</postback>
+        </button>
+    </template>
+  </category>
+</aiml>
